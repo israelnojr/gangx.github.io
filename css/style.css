@@ -1,0 +1,301 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 68.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem; }
+
+.header-primary {
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 1rem;
+  text-transform: uppercase; }
+  .header-primary::after {
+    content: "";
+    background: #007bff;
+    display: block;
+    height: .3rem;
+    width: 10rem;
+    margin: 1rem auto .5rem; }
+
+.header-secondary {
+  text-align: center;
+  color: #fff !important;
+  padding-bottom: 1rem;
+  text-transform: uppercase; }
+  .header-secondary::after {
+    content: "";
+    background: #007bff;
+    display: block;
+    height: .3rem;
+    width: 10rem;
+    margin: 1rem auto .5rem; }
+
+.slider {
+  width: 100%; }
+
+.carousel-caption {
+  transform: translateY(-50%);
+  top: 50%;
+  bottom: initial !important;
+  text-transform: uppercase; }
+  .carousel-caption h5 {
+    font-size: 4.2rem;
+    color: #fff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-transform: uppercase;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif; }
+  .about-content {
+    font-size: 1.5rem;
+    text-transform: none;
+    padding-top: 2rem; }
+  .about .btn {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: .5rem;
+    font-size: 1.5rem; }
+
+.skils-bar p {
+  margin-bottom: .6rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.progress {
+  border-radius: 1.6rem !important;
+  margin-bottom: 20px; }
+  .progress-bar {
+    border-radius: 1.6rem !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #eee;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+    font-size: .95rem;
+    font-family: sans-serif;
+    font-weight: 720; }
+
+.services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/bg-about.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff !important;
+  background-attachment: fixed;
+  padding: 5rem;
+  transition: all .2s ease; }
+  .services .col-md-3:hover {
+    background: #007bff8f;
+    cursor: pointer;
+    border-radius: .25rem;
+    transition: all .9s ease; }
+  .services p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    color: #ccc; }
+
+.icon {
+  margin: 2rem auto;
+  padding: 2rem;
+  height: 8rem;
+  width: 8rem;
+  border: 1px solid #fff;
+  border-radius: 50%; }
+  .icon_moon {
+    width: 3.75rem;
+    height: 3.75rem;
+    fill: white; }
+    .icon_moon-1 {
+      fill: #fff !important;
+      width: 2.75rem;
+      height: 3.75rem;
+      background: #0f51ceba;
+      padding: .4rem;
+      border-radius: 50%;
+      opacity: 0; }
+
+.team {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #ccc  !important; }
+
+.container {
+  margin: 0rem; }
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.img-container {
+  margin: 0rem; }
+
+.profile-pic {
+  margin-top: 2.5rem; }
+  .profile-pic .image-box {
+    opacity: 1;
+    position: relative;
+    margin: 1rem; }
+    .profile-pic .image-box:hover ul .icon_moon-1 {
+      opacity: 1; }
+    .profile-pic .image-box img {
+      filter: grayscale(1);
+      width: 100%; }
+    .profile-pic .image-box img:hover {
+      filter: grayscale(0);
+      cursor: pointer; }
+    .profile-pic .image-box ul {
+      padding: 1.5rem 0;
+      position: absolute;
+      z-index: 2;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 1;
+      transition: all .5s ease; }
+    .profile-pic .image-box ul li {
+      padding: 0rem;
+      display: inline-block;
+      transition: all .5s ease; }
+  .profile-pic h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #007bff !important; }
+  .profile-pic h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #555; }
+  .profile-pic p {
+    font-size: 1.2rem;
+    line-height: 20px;
+    letter-spacing: 1;
+    color: #555; }
+
+.team {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #ccc  !important; }
+
+.container {
+  margin: 0rem; }
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.img-container {
+  margin: 0rem; }
+
+.profile-pic {
+  margin-top: 2.5rem; }
+  .profile-pic .image-box {
+    opacity: 1;
+    position: relative;
+    margin: 1rem; }
+    .profile-pic .image-box:hover ul .icon_moon-1 {
+      opacity: 1; }
+    .profile-pic .image-box img {
+      filter: grayscale(1);
+      width: 100%; }
+    .profile-pic .image-box img:hover {
+      filter: grayscale(0);
+      cursor: pointer; }
+    .profile-pic .image-box ul {
+      padding: 1.5rem 0;
+      position: absolute;
+      z-index: 2;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 1;
+      transition: all .5s ease; }
+    .profile-pic .image-box ul li {
+      padding: 0rem;
+      display: inline-block;
+      transition: all .5s ease; }
+  .profile-pic h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #007bff !important; }
+  .profile-pic h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #555; }
+  .profile-pic p {
+    font-size: 1.2rem;
+    line-height: 20px;
+    letter-spacing: 1;
+    color: #555; }
+
+.promo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/bg-slash.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 10rem;
+  font-family: sans-serif;
+  font-size: 3.8rem; }
+
+.btn-min {
+  font-size: 2rem !important;
+  text-transform: uppercase;
+  padding: 1rem !important; }
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  color: white !important; }
+
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase; }
+  .nav-link:hover {
+    color: #007bff !important; }
+
+.navbar {
+  background-color: black; }
+  .navbar-brand img {
+    height: 4rem;
+    padding-left: 3rem; }
+  .navbar-nav li {
+    padding: 0 1rem; }
+  .navbar-nav li a {
+    float: right;
+    text-align: left;
+    font-size: 1.5rem; }
+  .navbar-toggler {
+    background-color: red; }
+
+.d-block {
+  display: block !important;
+  height: 61rem; }
